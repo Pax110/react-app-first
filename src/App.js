@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+import NameTag from './NameTag';
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +18,8 @@ function App() {
         >
           Learn React
         </a>
+        <NameTag name ="Pax" argummentTwo="anyString"/>
+        
       </header>
     </div>
   );
